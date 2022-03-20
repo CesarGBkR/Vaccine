@@ -1,0 +1,540 @@
+@font-face {
+    font-family: Grotesk;
+    src: url('./fonts/grotesk.otf');
+}
+@font-face {
+    font-family: Rational;
+    src: url(./fonts/rational.otf.otf);
+}
+*{
+    font-family: Grotesk;
+    display: flex;
+}
+p{
+    font-size: small;
+    color: #6d7b93;
+}
+h1, h2{
+    font-weight: bold;
+    color: #1f3e72;
+}
+
+.subt{
+    font-family: Rational;
+    color: #6d7b93;
+}
+.log {
+    width: 200px;
+    height: 50px;
+    background-color:none;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+
+}
+.logt{
+    margin:auto;
+}
+
+.dash {
+    width: 150px;
+    height: 50px;
+    background-color: none;
+}
+
+.big {
+    width: 200px;
+    height: 70px;
+    background-color: #3050ce;
+}
+
+
+.data{
+    position: absolute;
+    top: 60px;
+    right: 1000px; 
+}
+.datat{
+    font-family: Rational;
+    font-size: x-large;
+    color: #6d7b93;
+    margin: auto;
+}
+
+.edu{
+    position: absolute;
+    top: 60px;
+    right: 825px; 
+}
+
+.news{
+    position: absolute;
+    top: 60px;
+    right: 650px; 
+}
+
+.reg{
+    position: absolute;
+    top: 60px;
+    right: 475px; 
+}
+
+.buster{
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    right: 250px; 
+}
+.bustert{
+    
+    color: #fafafa;
+    margin: auto;
+
+}
+.info{
+    width: 600px;
+    height: 450px;
+    background-color: none;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+
+}
+.infot{
+    font-size: 450%;
+}
+.infot2{
+    font-size: 175%;
+    font-family: Rational;
+    color: #6d7b93;
+    position: absolute;
+    bottom: 50px;
+}
+.infofood{
+    width: 550px;
+    height: 50px;
+    background-color: none;
+    position: absolute;
+    top: 575px;
+    left: 175px;
+
+}
+.infoft{
+    color: #1f3e72;
+    font-weight: 200%;
+    font-family: Rational;
+}
+.infoft2{
+    color: #1f3e72;
+    font-weight: 200%;
+    font-family: Rational;
+    position: absolute;
+    left: 225px;
+}
+
+.vac{
+    width: 550px;
+    height: 50px;
+    background-color: none;
+    position: absolute;
+    top: 700px;
+    left: 100px;
+
+}
+.vact{
+    margin: auto;
+    font-weight: lighter;
+    font-size: 175%;
+}
+
+.vacdata{
+    border-radius: 10px;
+    width: 900px;
+    height: 125px;
+    background-color: #fafafa;
+    position: absolute;
+    top: 775px;
+    left: 100px;
+
+}
+.vactdt{
+    color: #6d7b93;
+    font-family: Rational;
+    font-weight: 300%;
+    font-size: 175%;
+}
+.utara{
+    position: absolute;
+    top: 40px;
+    left: 80px;  
+}
+
+.date{
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 325px;
+}
+.type{
+    position: absolute;
+    left: 450px;
+}
+.vactd1{
+    position: absolute;
+    left: 75px;
+}
+.vactd2{
+    position: absolute;
+    left: 300px;
+}
+.vactd3{
+    position: absolute;
+    left: 475px;
+}
+.submit{
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    background-color: #3050ce;
+    position: absolute;
+    top: 815px;
+    left: 775px;  
+} 
+.submitt{
+    font-weight: lighter;
+    color: #fafafa;
+    margin: auto;
+}
+
+.medic{
+    height: 825px;
+    width: 800px;
+    position: absolute;
+    right: 250px;
+    top: 150px;
+}
+/* Insertar logos y poner opacidad */
+.brand1{
+    width: 390px;
+    height: 150px;
+    background-color: none;
+    position: absolute;
+    top: 1025px;
+    left: 100px;
+}
+.brand2{
+    width: 390px;
+    height: 150px;
+    background-color: none;
+    position: absolute;
+    top: 1025px;
+    left: 490px;
+}
+.brand3{
+    width: 390px;
+    height: 150px;
+    background-color: none;
+    position: absolute;
+    top: 1025px;
+    left: 880px;
+}
+.brand4{
+    width: 390px;
+    height: 150px;
+    background-color:none;
+    position: absolute;
+    top: 1025px;
+    right: 250px;
+}
+/* End Brands */
+
+/* Infos */
+.infos{
+    width: 750px;
+    height: 300px;
+    background-color: none;
+    position: absolute;
+    top: 1250px;
+    left: 100px;
+}
+.infos1{
+    font-size: 300%;
+}
+.infos2{
+    font-size: 150%;
+    font-family: Rational;
+    color: #6d7b93;
+    position: absolute;
+    bottom: 50px;
+}
+
+/* Rasons */
+
+.rason1{
+    width: 350px;
+    height: 400px;
+    background-color: none;
+    position: absolute;
+    top: 1575px;
+    left: 100px;
+}
+.reason11{
+    font-size: 200%;
+    font-weight: lighter;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.rason2{
+    width: 350px;
+    height: 400px;
+    background-color: none;
+    position: absolute;
+    top: 1575px;
+    left: 500px;
+}
+.reason12{
+    font-family: Rational;
+    font-size: 150%;
+    font-weight: bold;
+    color: #6d7b93;
+    position: absolute;
+    left: 30px;
+    top: 125px;
+}
+.rason3{
+    width: 350px;
+    height: 400px;
+    background-color: none;
+    position: absolute;
+    top: 1575px;
+    left: 900px;
+}
+.rason4{
+    width: 350px;
+    height: 400px;
+    background-color: none;
+    position: absolute;
+    top: 1575px;
+    left: 1300px;
+}
+/* En reasons */
+
+/* Preparations */
+.preparations{
+    width: 750px;
+    height: 300px;
+    background-color: none;
+    position: absolute;
+    top: 2100px;
+    right: 250px;
+}
+.prep1{
+    width: 700px;
+    height: 100px;
+    background-color: none;
+    position: absolute;
+    top: 2350px;
+    right: 275px;
+}
+.prep{
+    font-weight: lighter;
+    color: #1f3e72;
+    font-size: 150%;
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+}
+.prepp{
+    position: absolute;
+    bottom: 50px;
+}
+.prep2t{
+    color: #6d7b93;
+    font-family: Rational;
+    position: absolute;
+    bottom: 0px;
+}
+.prep2{
+    width: 700px;
+    height: 125px;
+    background-color:none;
+    position: absolute;
+    top: 2475px;
+    right: 275px;
+}
+.prep3{
+    position: absolute;
+    top: 2625px;
+    right: 275px;
+}
+.prep4{
+    position: absolute;
+    top: 2750px;
+    right: 275px;
+}
+.prep5{
+    position: absolute;
+    top: 2875px;
+    right: 275px;
+}
+.img2{
+    height: 850px;
+    width: 750px;
+    position: absolute;
+    top: 2100px;
+    left: 100px;
+}
+/* End preparations */
+
+/* Emergency contact */
+.eContact{
+    width: 750px;
+    height: 300px;
+    background-color: none;
+    position: absolute;
+    top: 3050px;
+    left: 100px;
+}
+.eCt{
+    font-weight: lighter;
+    color: #1f3e72;
+    font-size: 250%;
+    position: absolute;
+    bottom: 30px;
+    left: 75px;
+}
+.eCt2{
+    color: #6d7b93;
+    font-family: Rational;
+    font-size: 175%;
+    position: absolute;
+    bottom: 5px;  
+    left: 75px;  
+}
+.eC1{
+    width: 350px;
+    height: 150px;
+    background-color: none;
+    position: absolute;
+    top: 3435px;
+    left: 100px;
+}
+.eC2{
+
+    position: absolute;
+    top: 3435px;
+    left: 500px;
+}
+.now{
+    width: 350px;
+    height: 150px;
+    background-color: none;
+    position: absolute;
+    top: 3625px;
+    left: 100px;
+}
+.nowb{
+    border-radius: 10px;
+    width: 350px;
+    height: 100px;
+    background-color: #3050ce;
+    position: absolute;
+    top: 3650px;
+    left: 500px;
+}
+.nowbt{
+    margin: auto;
+    font-size: 250%;
+    font-weight: bolder;
+    font-family: Rational;
+    color: #fafafa;
+}
+.nowt{
+    color: #3050ce;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 25px;
+}
+.eC3{
+    position: absolute;
+    top: 3800px;
+    left: 100px;
+}
+.eC4{
+    position: absolute;
+    top: 3800px;
+    left: 500px;
+}
+
+.doc{
+    height: 850px;
+    width: 750px;
+    position: absolute;
+    top: 3175px;
+    right: 250px;
+}
+.footer{
+    width: 1903px;
+    height: 500px;
+    background-color: #eef3ff;
+    position: absolute;
+    top: 4125px;
+    left: 0px;
+}
+.vacc{
+    width: 250px;
+    height: 250px;
+    background-color: none;
+    position: absolute;
+    top: 4200px;
+    left: 100px;
+}
+.vacct{
+    color: #3050ce;
+    font-size: 200%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.vacct2{
+    color: #6d7b93;
+    font-size: 140%;
+    font-family: Rational;
+    position: absolute;
+    top: 60px;
+    left: 25px;
+}
+.about{
+    width: 200px;
+    height: 250px;
+    background-color: none;
+    position: absolute;
+    top: 4200px;
+    right: 700px;
+}
+.aboutt{
+    font-weight: lighter;
+    font-size: 200%;
+    position: absolute;
+    left: 25px;
+    bottom: 175px;
+}
+.aboutt2{
+    color: #6d7b93;
+    font-family: Rational;
+    font-size: 150%;
+    position: absolute;
+    left: 25px;
+    bottom: 0px;
+}
+.company{
+    position: absolute;
+    top: 4200px;
+    right: 425px;
+}
+.support{
+    top: 4200px;
+    right: 150px;
+}
+
